@@ -27,3 +27,8 @@ def factorial(n):
     return n * factorial(n-1)
 n = int(input("Enter a number: "))
 print(factorial(n))
+
+print("a")
+print("b")
+print("c", end="") # avoids new line
+print("d", end="") # avoids new line
