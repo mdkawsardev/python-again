@@ -32,3 +32,13 @@ print("a")
 print("b")
 print("c", end="") # avoids new line
 print("d", end="") # avoids new line
+
+def rem(l, item):
+    n = []
+    for i in l:
+        if not(item == i):
+            n.append(i.strip(item))
+    return n
+
+l = ["kawsar", "imran", "kamran", "ran"]
+print(rem(l, "n"))
