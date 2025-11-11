@@ -3,3 +3,5 @@ with open("write_file.txt") as f:
 
 with open("read_file.txt", "w") as f:
     f.write(content)
+
+
