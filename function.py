@@ -7,7 +7,9 @@ print((a + b + c)/3) # Average number of these 3 numbers
 def greet():
     return("Good morning")
 print(greet())
+
 '''
+Multiline coments using triple quates
 factorial(0) = 1
 factorial(1) = 1x1 = 1
 factorial(2) = 2x1 = 2
