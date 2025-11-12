@@ -10,3 +10,9 @@ print(func(5))
 l = ["kawsar", "imran", "emon", "asif"]
 
 print(choice(l))
+
+with open("message.txt") as f:
+    print(f.read())
+txt = "I wanna say something"
+with open("message.txt", "w") as w:
+    w.write(txt) # Remember one thing, when you write something to the file, previous texts will be overwritten by new texts
