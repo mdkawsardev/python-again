@@ -16,3 +16,7 @@ myList.reverse()
 myList.pop(1) # removes by index number
 myList.remove("Banana") # removes by items name
 print(myList)
+line2 = "hey! I'm md kawsar, I'm a full-stack web developer"
+line3 = line2.split()
+for i in line3:
+    print(i)
