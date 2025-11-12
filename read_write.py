@@ -1,7 +1,8 @@
-with open("write_file.txt") as f:
+# open("file_name", "r,w,a")
+with open("write_file.txt") as f: # when a file is open for reading then open("file_name") second parameter by default r
     content = f.read()
 
-with open("read_file.txt", "w") as f:
+with open("read_file.txt", "w") as f: # when a file is open for writing then open("file_name", "w") second parameter is w
     f.write(content)
 
 
